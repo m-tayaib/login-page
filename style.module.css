@@ -1,8 +1,11 @@
+@font-face {
+  font-family: "gerbil";
+  src: url("./fonts/gerbil.otf") format("truetype");
+}
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 .container {
   position: relative;
@@ -20,6 +23,7 @@
     #0034a7 100%
   );
   overflow: hidden;
+  font-family: "gerbil", sans-serif;
 }
 .loginCardContainer {
   min-width: 410px;
