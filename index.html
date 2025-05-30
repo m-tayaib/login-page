@@ -6,10 +6,66 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>login Page UI/UX</title>
   <link rel="stylesheet" href="style.module.css">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
 </head>
 
 <body>
-  <h1>Hello World!</h1>
+  <section class="container">
+    <!-- images for background -->
+    <div class="bottomimg">
+      <img src="./assets/topimage.svg" alt="bottomImage">
+    </div>
+    <div class="bottomimg2">
+      <img src="./assets/bottom.svg" alt="bottomImage">
+    </div>
+    <div class="backgroundimg">
+      <img src="./assets//background.svg" alt="background">
+    </div>
+    <div class="topImg">
+      <img src="./assets/imageCenter.svg" alt="centerImage">
+    </div>
+    <div class="leftImage">
+      <img src="./assets/right.svg" alt="right image">
+    </div>
+    <div class="leftImage2">
+      <img src="./assets/smallleft.svg" alt="small image">
+    </div>
+    <div class="leftbottom">
+      <img src="./assets/bottomleft.svg" alt="image">
+    </div>
+    <div class="rightbottom">
+      <img src="./assets/rightbottom.svg" alt="image">
+    </div>
+
+    <!-- actual content login  -->
+    <div class="loginCardContainer">
+      <div class="loginCard">
+        <h1 class="title">Dev Entity</h1>
+        <form action="" class="loginForm">
+          <h2 class="formTitle">Login</h2>
+          <label for="Email" class="inputLabel">Email</label>
+          <input type="email" name="email" id="email" placeholder="username@fmail.com">
+          <label for="password" class="inputLabel">Password</label>
+          <input type="password" name="password" id="password" placeholder="password">
+          <span class="forgot">forgot password ?</span>
+          <button class="signInBtn">sign in</button>
+          <p class="orLoginOptionTxT">or continue with</p>
+          <div class="socialIcons">
+            <div class="google">
+              <i class="ri-google-fill"></i>
+            </div>
+            <div class="github">
+              <i class="ri-github-fill"></i>
+            </div>
+            <div class="facebook">
+              <i class="ri-facebook-circle-fill"></i>
+            </div>
+          </div>
+          <p class="registerTxt">Don't have an account yet? <span class="registerBoldtxt">Register for free</span></p>
+        </form>
+      </div>
+    </div>
+  </section>
   <script src="script.js"></script>
 </body>
 
