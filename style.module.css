@@ -1,7 +1,5 @@
-@font-face {
-  font-family: "gerbil";
-  src: url("./fonts/gerbil.otf") format("truetype");
-}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -23,7 +21,7 @@
     #0034a7 100%
   );
   overflow: hidden;
-  font-family: "gerbil", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 .loginCardContainer {
   min-width: 410px;
@@ -31,7 +29,7 @@
   background: linear-gradient(to top left, #5882c16b 0%, #5882c183 100%);
   padding: 42px 80px;
   border-radius: 28.24px;
-  backdrop-filter: blur(13.88px);
+  backdrop-filter: blur(16.88px);
 }
 .loginCard {
   width: 100%;
@@ -40,7 +38,7 @@
 .title {
   text-align: center;
   font-size: 24px;
-  color: #f3f3f3;
+  color: #fbfbfb;
 }
 .loginForm {
   display: flex;
@@ -51,11 +49,13 @@
 .formTitle {
   text-align: start;
   font-size: 24px;
-  color: #f3f3f3;
+  font-weight: 700;
+  color: #fffefe;
 }
 .inputLabel {
   font-size: 13px;
   color: #f3f3f3;
+  margin-bottom: -20px;
 }
 #email,
 #password {
@@ -90,9 +90,8 @@
   cursor: pointer;
 }
 .signInBtn:hover {
-  /* @extend .signInBtn, */
-  background-color: #004a90;
-  transition: all ease-in-out 3s;
+  background-color: #0566f9;
+  transition: all ease-in-out 0.3s;
 }
 .orLoginOptionTxT {
   text-align: center;
